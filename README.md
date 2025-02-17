@@ -66,5 +66,5 @@ Once the backend is running, visit:
 
 ---
 ### Author
-Developed by **ntsaousis** for a bootcamp final project.
+Developed by **ntsaousis** for AUEB CF6 final project.
 

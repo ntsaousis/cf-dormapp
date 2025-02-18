@@ -61,7 +61,6 @@ Once the backend is running, visit:
 
 ## To-Do
 - Implement better UI styling
-- Optimize database queries
 - Add complaints and requests management.
 
 ---

@@ -20,7 +20,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
 ### Backend (Spring Boot)
 1. Clone the repository:
    ```sh
-   git clone https://github.com/ntsaousis/cf-final-project.git
+   git clone https://github.com/ntsaousis/cf-dormapp.git
    cd cf-final-project
    ```
 2. Configure **MySQL Database**:

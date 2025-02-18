@@ -10,7 +10,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
 - API documentation with Swagger
 
 ## Tech Stack
-- **Backend:** Spring Boot (Java), Spring Security, MySQL
+- **Backend:** Spring Boot (Java 17+), Spring Security, MySQL
 - **Frontend:** Angular 18, Bootstrap
 - **API Documentation:** Springdoc OpenAPI (Swagger)
 - **Build Tools:** Gradle

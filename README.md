@@ -35,6 +35,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
    ```cmd
    ./gradlew bootRun
    ```
+   Backend runs on http://localhost:8080
 4.Populate rooms by executing `rooms.sql` manually in MySQL or enable auto-insertion.
 
 ### Frontend (Angular)
@@ -50,6 +51,8 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
    ```sh
    ng serve
    ```
+   The frontend will be available at:
+http://localhost:4200
 
 ## API Documentation
 Once the backend is running, visit:

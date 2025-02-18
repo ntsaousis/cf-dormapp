@@ -1,0 +1,191 @@
+2025-02-18 09:22:09 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 09:22:09 INFO  - Starting DormApp using Java 17.0.14 with PID 14248 (C:\Users\Me\IdeaProjects\tsaousis-final\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\tsaousis-final)
+2025-02-18 09:22:09 INFO  - The following 1 profile is active: "test"
+2025-02-18 09:22:12 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 09:22:12 INFO  - Finished Spring Data repository scanning in 203 ms. Found 5 JPA repository interfaces.
+2025-02-18 09:22:15 INFO  - Tomcat initialized with port 8080 (http)
+2025-02-18 09:22:16 INFO  - Root WebApplicationContext: initialization completed in 6447 ms
+2025-02-18 09:22:16 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-18 09:22:17 INFO  - HHH000026: Second-level cache disabled
+2025-02-18 09:22:18 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 09:22:19 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.38
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-18 09:22:23 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 09:22:23 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 09:22:24 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-02-18 09:22:25 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 09:22:27 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 09:22:27 INFO  - Started DormApp in 20.163 seconds (process running for 21.53)
+2025-02-18 09:24:33 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-02-18 09:24:33 INFO  - Completed initialization in 0 ms
+2025-02-18 09:25:08 INFO  - User authenticated
+2025-02-18 09:25:09 INFO  - Fetching all rooms
+2025-02-18 09:25:09 INFO  - Successfully fetched 15 rooms
+2025-02-18 09:25:39 INFO  - User authenticated
+2025-02-18 09:25:40 INFO  - Fetching all rooms
+2025-02-18 09:25:40 INFO  - Successfully fetched 15 rooms
+2025-02-18 09:54:24 INFO  - Init duration for springdoc-openapi is: 1013 ms
+2025-02-18 10:51:27 INFO  - Fetching all rooms
+2025-02-18 10:51:27 INFO  - Successfully fetched 15 rooms
+2025-02-18 12:55:58 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 12:55:59 INFO  - Starting DormApp using Java 17.0.14 with PID 4964 (C:\Users\Me\IdeaProjects\tsaousis-final\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\tsaousis-final)
+2025-02-18 12:55:59 INFO  - The following 1 profile is active: "test"
+2025-02-18 12:56:01 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 12:56:01 INFO  - Finished Spring Data repository scanning in 123 ms. Found 5 JPA repository interfaces.
+2025-02-18 12:56:02 INFO  - Tomcat initialized with port 8080 (http)
+2025-02-18 12:56:02 INFO  - Root WebApplicationContext: initialization completed in 3710 ms
+2025-02-18 12:56:03 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-18 12:56:03 INFO  - HHH000026: Second-level cache disabled
+2025-02-18 12:56:04 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 12:56:05 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.38
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-18 12:56:07 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 12:56:08 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 12:56:08 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-02-18 12:56:09 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 12:56:10 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 12:56:10 INFO  - Started DormApp in 12.47 seconds (process running for 13.2)
+2025-02-18 13:27:22 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 13:27:22 INFO  - Starting DormApp using Java 17.0.14 with PID 3292 (C:\Users\Me\IdeaProjects\tsaousis-final\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\tsaousis-final)
+2025-02-18 13:27:22 INFO  - The following 1 profile is active: "test"
+2025-02-18 13:27:24 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 13:27:24 INFO  - Finished Spring Data repository scanning in 150 ms. Found 5 JPA repository interfaces.
+2025-02-18 13:27:26 INFO  - Tomcat initialized with port 8080 (http)
+2025-02-18 13:27:26 INFO  - Root WebApplicationContext: initialization completed in 3820 ms
+2025-02-18 13:27:26 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-18 13:27:26 INFO  - HHH000026: Second-level cache disabled
+2025-02-18 13:27:27 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 13:27:28 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.38
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-18 13:27:30 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 13:27:30 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 13:27:31 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-02-18 13:27:31 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 13:27:33 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 13:27:33 INFO  - Started DormApp in 12.357 seconds (process running for 16.243)
+2025-02-18 14:12:57 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-02-18 14:12:57 INFO  - Completed initialization in 0 ms
+2025-02-18 14:12:58 INFO  - User authenticated
+2025-02-18 14:12:58 INFO  - Fetching all rooms
+2025-02-18 14:12:58 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:14:16 INFO  - User authenticated
+2025-02-18 14:15:46 INFO  - User authenticated
+2025-02-18 14:15:46 INFO  - Fetching all rooms
+2025-02-18 14:15:46 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:15:52 INFO  - Checking availability for room with ID 7
+2025-02-18 14:15:52 INFO  - Room with ID 7 is available
+2025-02-18 14:15:54 INFO  - Fetching all rooms
+2025-02-18 14:15:54 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:15:57 INFO  - Warden removing student with ID 8
+2025-02-18 14:15:57 INFO  - Removing student 8 from room 7
+2025-02-18 14:15:57 INFO  - Student with ID 8 successfully removed from room
+2025-02-18 14:15:58 INFO  - Fetching all rooms
+2025-02-18 14:15:58 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:20:36 INFO  - User authenticated
+2025-02-18 14:20:36 INFO  - Fetching all rooms
+2025-02-18 14:20:36 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:20:42 INFO  - Checking availability for room with ID 3
+2025-02-18 14:20:42 INFO  - Room with ID 3 is available
+2025-02-18 14:20:44 INFO  - Fetching all rooms
+2025-02-18 14:20:44 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:20:49 INFO  - Warden removing student with ID 9
+2025-02-18 14:20:49 INFO  - Removing student 9 from room 3
+2025-02-18 14:20:49 INFO  - Student with ID 9 successfully removed from room
+2025-02-18 14:20:55 INFO  - Fetching all rooms
+2025-02-18 14:20:55 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:21:01 INFO  - Checking availability for room with ID 8
+2025-02-18 14:21:01 INFO  - Room with ID 8 is available
+2025-02-18 14:21:02 INFO  - Fetching all rooms
+2025-02-18 14:21:02 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:21:16 INFO  - Fetching all rooms
+2025-02-18 14:21:16 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:21:31 INFO  - Warden removing student with ID 9
+2025-02-18 14:21:31 INFO  - Removing student 9 from room 8
+2025-02-18 14:21:31 INFO  - Student with ID 9 successfully removed from room
+2025-02-18 14:21:32 INFO  - Fetching all rooms
+2025-02-18 14:21:32 INFO  - Successfully fetched 15 rooms
+2025-02-18 14:22:08 INFO  - User authenticated
+2025-02-18 16:02:38 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 16:02:38 INFO  - Starting DormApp using Java 17.0.14 with PID 10596 (C:\Users\Me\IdeaProjects\tsaousis-final\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\tsaousis-final)
+2025-02-18 16:02:38 INFO  - The following 1 profile is active: "test"
+2025-02-18 16:02:40 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 16:02:40 INFO  - Finished Spring Data repository scanning in 126 ms. Found 5 JPA repository interfaces.
+2025-02-18 16:02:41 INFO  - Tomcat initialized with port 8080 (http)
+2025-02-18 16:02:42 INFO  - Root WebApplicationContext: initialization completed in 3745 ms
+2025-02-18 16:02:42 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-18 16:02:42 INFO  - HHH000026: Second-level cache disabled
+2025-02-18 16:02:43 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 16:02:44 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.38
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-18 16:02:46 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 16:02:46 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 16:02:47 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-02-18 16:02:47 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 16:02:49 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 16:02:49 INFO  - Started DormApp in 12.679 seconds (process running for 13.569)
+2025-02-18 16:05:08 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-02-18 16:05:08 INFO  - Completed initialization in 0 ms
+2025-02-18 16:05:10 INFO  - User authenticated
+2025-02-18 16:14:55 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2025-02-18 16:14:55 INFO  - Starting DormApp using Java 17.0.14 with PID 7208 (C:\Users\Me\IdeaProjects\tsaousis-final\build\classes\java\main started by Me in C:\Users\Me\IdeaProjects\tsaousis-final)
+2025-02-18 16:14:55 INFO  - The following 1 profile is active: "test"
+2025-02-18 16:14:57 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 16:14:57 INFO  - Finished Spring Data repository scanning in 112 ms. Found 5 JPA repository interfaces.
+2025-02-18 16:14:58 INFO  - Tomcat initialized with port 8080 (http)
+2025-02-18 16:14:59 INFO  - Root WebApplicationContext: initialization completed in 3575 ms
+2025-02-18 16:14:59 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-02-18 16:14:59 INFO  - HHH000026: Second-level cache disabled
+2025-02-18 16:15:00 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 16:15:00 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.38
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-18 16:15:03 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 16:15:03 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 16:15:04 INFO  - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-02-18 16:15:04 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 16:15:05 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2025-02-18 16:15:05 INFO  - Started DormApp in 11.62 seconds (process running for 12.45)
+2025-02-18 16:15:44 INFO  - Initializing Servlet 'dispatcherServlet'
+2025-02-18 16:15:44 INFO  - Completed initialization in 0 ms
+2025-02-18 16:36:33 INFO  - User authenticated
+2025-02-18 16:36:33 INFO  - Fetching all rooms
+2025-02-18 16:36:34 INFO  - Successfully fetched 15 rooms
+2025-02-18 16:36:41 INFO  - Checking availability for room with ID 5
+2025-02-18 16:36:41 INFO  - Room with ID 5 is available
+2025-02-18 16:36:42 INFO  - Fetching all rooms
+2025-02-18 16:36:42 INFO  - Successfully fetched 15 rooms
+2025-02-18 16:36:46 INFO  - Warden removing student with ID 9
+2025-02-18 16:36:46 INFO  - Removing student 9 from room 5
+2025-02-18 16:36:46 INFO  - Student with ID 9 successfully removed from room
+2025-02-18 16:36:47 INFO  - Fetching all rooms
+2025-02-18 16:36:47 INFO  - Successfully fetched 15 rooms
+2025-02-18 16:37:16 INFO  - User authenticated

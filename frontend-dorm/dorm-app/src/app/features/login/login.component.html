@@ -1,0 +1,32 @@
+<div class="d-flex justify-content-center align-items-center flex-grow-1 vh-100">
+  <div class="card shadow p-4" style="width: 400px;">
+    <h2 class="text-center mb-4">Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="handleLogin()">
+
+      
+      <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input class="form-control" formControlName="username">
+        <div class="error-message" *ngIf="loginForm.get('username')?.invalid && loginForm.get('username')?.touched">
+          <span *ngIf="loginForm.get('username')?.errors?.['required']">Username is required.</span>
+          <span *ngIf="loginForm.get('username')?.errors?.['minlength']">Username must be at least 3 characters.</span>
+          <span *ngIf="loginForm.get('username')?.errors?.['maxlength']">Username cannot exceed 50 characters.</span>
+        </div>
+      </div>
+
+      
+      <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" formControlName="password">
+        <div class="error-message" *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+          <span *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</span>
+          <span *ngIf="loginForm.get('password')?.errors?.['minlength']">Password must be at least 8 characters.</span>
+          <span *ngIf="loginForm.get('password')?.errors?.['pattern']">Password must include 1 digit, 1 uppercase, and 1 special character.</span>
+        </div>
+      </div>
+
+      
+      <button class="btn btn-primary w-100" [disabled]="loginForm.invalid">Login</button>
+    </form>
+  </div>
+</div>

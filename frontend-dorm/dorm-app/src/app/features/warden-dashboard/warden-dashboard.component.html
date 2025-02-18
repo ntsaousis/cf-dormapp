@@ -1,0 +1,70 @@
+<div class="container mt-4">
+  <h2 class="text-center">Warden Dashboard</h2>
+
+  <div *ngIf="errorMessage" class="error-message">
+    ⚠️ {{ errorMessage }}
+  </div>
+  
+
+  
+  <div class="row mt-4">
+      
+      <div class="col-md-6">
+          <label for="studentSelect" class="form-label">Select Student:</label>
+          <select class="form-select" id="studentSelect" [(ngModel)]="selectedStudentId">
+              <option *ngFor="let student of students" [value]="student.id">
+                  {{ student.user.firstName }} {{ student.user.lastName }} (ID: {{ student.id }})
+              </option>
+          </select>
+      </div>
+
+      
+      <div class="col-md-6">
+          <label for="roomSelect" class="form-label">Select Room:</label>
+          <select class="form-select" id="roomSelect" [(ngModel)]="selectedRoomId">
+              <option *ngFor="let room of rooms" [value]="room.roomId" [disabled]="!room.available">
+                  {{ room.roomId }} - {{ room.roomName }} (Capacity: {{ room.roomCapacity }})
+              </option>
+          </select>
+      </div>
+  </div>
+
+  
+  <div class="row mt-3">
+      <div class="col-12 text-center">
+          <button class="btn btn-primary me-2" (click)="assignStudentToRoom()" [disabled]="!selectedStudentId || !selectedRoomId">
+              Assign Student to Room
+          </button>
+          <button class="btn btn-danger" (click)="deleteStudent(selectedStudentId!)" [disabled]="!selectedStudentId">
+              Delete Student
+          </button>
+      </div>
+  </div>
+
+  
+  <h3 class="mt-4 text-center">Student Room Assignments</h3>
+  <div class="table-responsive">
+      <table class="table table-striped">
+          <thead class="table-dark">
+              <tr>
+                  <th>Name</th>
+                  <th>Username</th>
+                  <th>Assigned Room</th>
+                  <th>Actions</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let student of students">
+                  <td>{{ student.user.firstName }} {{ student.user.lastName }}</td>
+                  <td>{{ student.user.username }}</td>
+                  <td>{{ student.room?.roomName || 'Not Assigned' }}</td>
+                  <td>
+                      <button class="btn btn-warning btn-sm" (click)="unassignStudent(student.id)">
+                          Unassign
+                      </button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

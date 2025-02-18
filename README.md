@@ -21,7 +21,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
 1. Clone the repository:
    ```sh
    git clone https://github.com/ntsaousis/cf-dormapp.git
-   cd cf-final-project
+   cd backend-dorm\tsaousis-final
    ```
 2. Configure **MySQL Database**:
    - Update `src/main/resources/application.properties` with your MySQL credentials:
@@ -42,7 +42,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
 ### Frontend (Angular)
 1. Navigate to the frontend directory:
    ```sh
-   cd frontend
+   cd frontend\dorm-app
    ```
 2. Install dependencies:
    ```sh

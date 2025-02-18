@@ -37,7 +37,7 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
    ```
    Backend runs on http://localhost:8080
    
- 4.Populate rooms by executing `rooms.sql` manually in MySQL or enable auto-insertion.
+ 4. Populate rooms by executing `rooms.sql` manually in MySQL or enable auto-insertion.
 
 ### Frontend (Angular)
 1. Navigate to the frontend directory:

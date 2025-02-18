@@ -32,10 +32,10 @@ A dormitory management system built with **Spring Boot** and **Angular** to faci
      spring.jpa.hibernate.ddl-auto=update
      ```
 3. Run the application:
-   ```sh
+   ```cmd
    ./gradlew bootRun
    ```
-4. (Optional) Populate rooms by executing `rooms.sql` manually in MySQL or enable auto-insertion.
+4.Populate rooms by executing `rooms.sql` manually in MySQL or enable auto-insertion.
 
 ### Frontend (Angular)
 1. Navigate to the frontend directory:
@@ -62,8 +62,8 @@ Once the backend is running, visit:
 ## To-Do
 - Implement better UI styling
 - Optimize database queries
-- Add more unit and integration tests
+- Add complaints and requests management.
 
 ---
 ### Author
-Developed by **ntsaousis** for a bootcamp final project.
+Developed by **ntsaousis** for AUEB Coding Factory 6  final project.
